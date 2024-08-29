@@ -172,6 +172,7 @@ body {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; 
     margin-bottom: 97px;   
+    padding-bottom: 32px;
 }
 
 .second-but {
@@ -260,10 +261,108 @@ body {
     font-size: 12px;
     font-weight: 700;
     color:  #4CE0D7;
+    width: max-content;
     
 }
 
 
 
 
+/* trending section  */
 
+.trending-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-title h1{
+    margin-bottom: 55px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.trending-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-card{
+    padding-bottom: 36px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 6px 0px #0000000D;
+    background-color: white;
+
+}
+
+.trending-button{
+    padding: 20px 0 219px 34px;
+    background: url(./photos/lifestyle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+.trending-button a{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    padding: 9px 49px;
+    background-color: #262626;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+.trending-first{
+    display: flex;
+    gap: 28px;
+    margin-top: 23px;
+    align-items: center;
+    margin-left: 26px;
+    margin-bottom: 28px;
+}
+
+.trending-first div{
+    display: flex;
+    gap: 167px;
+    padding-right: 90px;
+}
+
+.trending-first img{
+    border-radius: 100%;
+}
+
+
+.trending-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 26px;
+    margin-bottom: 20px;
+}
+
+.trending-text h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #262626;
+    max-width: 350px;
+}
+
+.trending-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #262626;
+    max-width: 360px;
+}
+
+.trending-arrow a{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #4CE0D7;
+}
